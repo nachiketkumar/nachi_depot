@@ -1,0 +1,40 @@
+@import 'bootstrap';
+
+body {
+ padding: 60px 0;
+ width: 100%;
+ max-width: 1000px;
+ margin: 0 auto;
+}
+
+.container {
+	max-width: 1000px;
+
+	.row {
+		margin-left: 0;
+	}
+}
+
+[class^="icon-"] {
+	margin: 0 25px 0 15px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	vertical-align: text-bottom;
+
+}
+
+.btn {
+	text-align: left;
+}
+
+.btn-primary [class^="icon-"] {
+	margin: 0 5px 0 0;
+}
+
+@import "bootstrap-responsive";
+
+
+
+

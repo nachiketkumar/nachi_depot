@@ -21,3 +21,5 @@ module Depot
     # config.i18n.default_locale = :de
   end
 end
+
+# config.assets.precompile += %w(.png .jpg .jpeg .gif)
